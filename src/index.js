@@ -4,6 +4,4 @@ import {
     MenuPage
 } from './pages/MenuPage';
 
-setTimeout(() => {
-    MenuPage.render();
-}, 1000);
+setTimeout(() => MenuPage.render(), 3000);

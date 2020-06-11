@@ -37,11 +37,11 @@ export class Lunch extends Meal {
 
         return `
             <div class="dish-preview lunch-preview">
-                <img src=${this.image}/>
+                <img src=${this.image} />
                 <div class="dish-preview-content">   
                     <div class="dish-preview-content-title">
                         <h3>${this.title} +Options!</h3>
-                        <p class="dish-preview-price">Price: ${this.price}</p>
+                        <p class="dish-preview-price">$${this.price}</p>
                     </div>
                     <p class="dish-preview-description">${this.description}</p>
                 </div>
@@ -81,7 +81,7 @@ export class Lunch extends Meal {
         super.getCartHTML();
         return `
             <div class="dish-cart-view snack-cart-view">
-                <img src=${this.image}/>
+                <img src=${this.image} />
                 <div class="content">
                         <h3>${this.title}</h3>
                         <p class="description">${this.description}</p>

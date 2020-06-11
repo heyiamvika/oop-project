@@ -24,7 +24,7 @@ export class FavoritesPage {
         const favoritesHTML = user.favorites.map(favItem => {
             return `
                 <div class="small-card menu-section">
-                    <img src=${favItem.image}/>
+                    <img src=${favItem.image} />
                     <h3>${favItem.title}</h3>
                     <p>${favItem.description}</p>
                 </div>  

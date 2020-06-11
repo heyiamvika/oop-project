@@ -10,7 +10,7 @@ import {
 
 import likeIcon from '../images/like.svg';
 import likeIconClicked from '../images/like-clicked.svg';
-import backButton from '../images/arrow-black.svg';
+import backButton from '../images/arrow.svg';
 
 export class DishPage {
     static render(dish) {

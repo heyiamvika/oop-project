@@ -21,7 +21,7 @@ export class Snack extends Dish {
 
         return `
             <div class="dish-preview snack-preview">
-                <img src=${this.image}/>
+                <img src=${this.image} />
                 <div class="dish-preview-content">
                     <div class="dish-preview-content-title">
                         <h3>${this.title}</h3>
@@ -58,7 +58,7 @@ export class Snack extends Dish {
         super.getCartHTML();
         return `
             <div class="dish-cart-view snack-cart-view">
-                <img src=${this.image}/>
+                <img src=${this.image} />
                 <div class="content">
                         <h3>${this.title}</h3>
                         <p class="description">${this.description}</p>

@@ -1,3 +1,5 @@
+import userPhoto from '../images/content/user.jpg';
+
 // приватні поля
 const _favorites = new WeakMap();
 
@@ -67,5 +69,6 @@ class User {
 export const user = new User(
     'Vika',
     'Software Engineer',
-    'https://media-exp1.licdn.com/dms/image/C4D03AQEDavjrLcNHJw/profile-displayphoto-shrink_400_400/0?e=1597276800&v=beta&t=RnS0c8gPTK_gufhh8L_2jfgxlKDxKdOV8iES5eWG0MI',
-    'Lorem ipsum, or lipsum as it is sometimes known,is dummy text used in laying out print graphicor web designs. The passage is attributed to anunknown typesetter in the 15th century who is thought to have scrambled parts of.');
+    userPhoto,
+    'Lorem ipsum, or lipsum as it is sometimes known,is dummy text used in laying out print graphicor web designs. The passage is attributed to anunknown typesetter in the 15th century who is thought to have scrambled parts of.'
+);

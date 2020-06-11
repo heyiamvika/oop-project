@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "pages": "0.0.16"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "electron": "^9.0.3"
   }
 }

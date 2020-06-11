@@ -31,7 +31,7 @@ export class MenuPage {
         const sectionsHTML = _sections.get(this).map(section => {
             return `
                 <div class="small-card menu-section">
-                    <img src=${section.image}/>
+                    <img src=${section.image} />
                     <h3>${section.title}</h3>
                     <p>${section.description}</p>
                 </div>  
